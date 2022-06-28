@@ -161,9 +161,9 @@ vars.putObject(&quot;jobList&quot;,jobList);</stringProp>
             <RegexExtractor guiclass="RegexExtractorGui" testclass="RegexExtractor" testname="link" enabled="true">
               <stringProp name="RegexExtractor.useHeaders">false</stringProp>
               <stringProp name="RegexExtractor.refname">link</stringProp>
-              <stringProp name="RegexExtractor.regex"></stringProp>
-              <stringProp name="RegexExtractor.template"></stringProp>
-              <stringProp name="RegexExtractor.default"></stringProp>
+              <stringProp name="RegexExtractor.regex">&lt;a class=&quot;hover:bg-block-base-text hover:bg-opacity-3 flex flex-col sm:flex-row justify-between items-center py-4 px-6&quot; href=&quot;(.+?)&quot;&gt;</stringProp>
+              <stringProp name="RegexExtractor.template">$1$</stringProp>
+              <stringProp name="RegexExtractor.default">not_found</stringProp>
               <stringProp name="RegexExtractor.match_number">-1</stringProp>
             </RegexExtractor>
             <hashTree/>
